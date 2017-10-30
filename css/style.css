@@ -136,6 +136,23 @@ a:hover{
 	color: #b04e4b;
 }
 
+@media only screen and (max-width: 767px){
+	.pull-quote-para{
+		margin-left: 18%;
+		margin-right: 22%;
+		margin-top: 2%;
+		font-family: 'Athelas', serif;
+		font-size: 110%;
+		color: #000;
+		line-height: 1.7em;
+	}
+	
+	.pull-quote{
+		width: 250px;
+		margin-left: 18%;
+	}
+}
+
 /** TYPEWRITER ANIMATIONS: CREDITS TO http://codepen.io/thiagoteles/pen/ogoxLw/**/
 /* Google Fonts */
 @import url(http://fonts.googleapis.com/css?family=Anonymous+Pro);
