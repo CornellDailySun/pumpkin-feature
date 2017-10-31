@@ -290,7 +290,11 @@ a:hover{
 	#maintitle{
 		font-size: 190%;
 	}
-	
+	.wrapper{
+		/*trying this for mobile...might not work*/
+		min-height: 300px;
+
+	}
 }
 
 /** TYPEWRITER ANIMATIONS: CREDITS TO http://codepen.io/thiagoteles/pen/ogoxLw/**/
