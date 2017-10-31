@@ -232,11 +232,44 @@ body{
 	padding-bottom: 30px;
 }
 
-
-.footer{
-	font-size: 110%;
+.credits{
 	font-style: italic;
-	text-align: center;
+	color: #666!important;
+}
+.iconlink{
+	text-decoration: none;
+	color: #fff;
+}
+.icon{
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-top: 10%;
+
+	animation-name: maketextvisible;
+	animation-duration: 2s;
+}
+.facebook:hover{
+	color: #3b5998;
+}
+.twitter:hover{
+	color: #00aced;
+}
+.footer{
+	font-size: 130%;
+	color: #fff;
+
+	font-family: 'Athelas', serif;
+	text-align: left;
+	background-color: #666;
+	padding-bottom: 5%;
+	padding-top: 5%;
+	margin-top: 4%;
+}
+#footer-credits{
+	font-size: 180%;
+}
+.footer p{
+	margin-left: 35%;
 }
 a{
 	padding-top: 5%;
