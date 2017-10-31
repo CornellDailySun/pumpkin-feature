@@ -23,6 +23,9 @@ body{
 	background-size: cover;
 	
 }
+.wrapper-mobile img{
+	width: 100%;
+}
 .parallaximage{
 	min-height: 760px;
 	background-attachment: fixed;
@@ -217,6 +220,9 @@ a:hover{
 	.sketch{
 		display: none;
 	}
+	.wrapper-mobile{
+		display: none;
+	}
 	
 }
 @media only screen and (max-width: 1000px){
@@ -290,11 +296,13 @@ a:hover{
 	#maintitle{
 		font-size: 190%;
 	}
-	.wrapper{
-		/*trying this for mobile...might not work*/
-		min-height: 300px;
-
+	.wrapper-mobile{
+		display: block;
 	}
+	.wrapper{
+		display:none;
+	}
+
 }
 
 /** TYPEWRITER ANIMATIONS: CREDITS TO http://codepen.io/thiagoteles/pen/ogoxLw/**/
