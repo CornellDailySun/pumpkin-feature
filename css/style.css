@@ -177,7 +177,7 @@ body{
 	margin-left: 27%;
 	margin-top: 2%;
 	font-family: 'Athelas', serif;
-	font-size: 140%;
+	font-size: 130%;
 	color: #000;
 	line-height: 1.7em;
 }
@@ -285,6 +285,9 @@ a:hover{
 	}
 	.wrapper{
 		min-height: 450px;
+	}
+	.pull-quote-para{
+		font-size: 136%;
 	}
 	.parallaximage{
 		background-image: none;
