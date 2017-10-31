@@ -55,6 +55,7 @@ body{
 	font-family: 'Athelas', serif;
 	margin-bottom: -3px;
 	font-style:italic;
+
 	margin-top: 15%;
 	color: #666;
 }
@@ -70,14 +71,16 @@ body{
 	width: 102%;
 	height: auto;
 }
-
+.img-caption-bold{
+	font-weight: bold;
+}
 .large-letter{
 	font-size: 280%;
 }
 
 #maintitle{
 	text-align: left;
-	font-size: 350%;
+	font-size: 270%;
 	font-family: 'Athelas', serif;
 	margin-left: 18%;
 	/*margin-left: 58%;*/
@@ -220,8 +223,14 @@ a:hover{
 	#sunlogo{
 		width: 8%;
 	}
-}
 
+}
+@media only screen and (max-width: 1000px){
+
+	#maintitle{
+		font-size: 200%;
+	}
+}
 @media only screen and (max-width: 767px){
 	.img-caption{
 		margin-left: 18%;
@@ -240,9 +249,7 @@ a:hover{
 		color: #000;
 		line-height: 1.7em;
 	}
-	#maintitle{
-		font-size: 280%;
-	}
+
 	.pull-quote{
 		width: 250px;
 		margin-left: 18%;
@@ -278,7 +285,7 @@ a:hover{
 		display: block;
 	}
 	#maintitle{
-		font-size: 220%;
+		font-size: 190%;
 	}
 	
 }
