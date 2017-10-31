@@ -13,7 +13,7 @@ body{
 }*/
 /*NEW WRAPPER TRY OUT PARALLAX*/
 .wrapper{
-	min-height: 800px;
+	min-height: 760px;
 	
 	
 	background-image: url(../images/titleimage.png);
@@ -48,6 +48,18 @@ body{
 .pull-quote{
 	width: 200px;
 }
+.img-caption{
+	width: 230px;
+	margin-left: 23%;
+	font-size: 140%;
+	font-family: 'Athelas', serif;
+	margin-bottom: -3px;
+	font-style:italic;
+	margin-top: 15%;
+	color: #666;
+}
+
+
 .pull-quote-content{
 	font-size: 170%;
 	font-family: 'Athelas', serif;
@@ -109,7 +121,8 @@ body{
 	float: right;
 }
 #sunlogo{
-	width: 3%;
+	width: 5%;
+
 	height: auto;
 	padding-left: 20px;
 	padding-top: 10px;
@@ -128,9 +141,19 @@ body{
 	width: 100%;
 	height: auto;
 }
+.sketch-caption{
+	margin-left: 17%;
+	width: 65%;
+	margin-top: 0.5%;
+	font-size: 130%;
+	color: #666;
+	margin-bottom: 1%;
+	font-family: "Athelas", serif;
+	font-style: italic;
+}
 .in-text-img{
-	margin-left: 18%;
-	width:450px;
+	margin-left: 37%;
+	width:76%;
 	height: auto;
 	margin-top: 2%;
 	margin-right: auto;
@@ -188,14 +211,26 @@ a:hover{
 }
 
 @media only screen and (min-width: 651px){
-	
 	.sketch{
 		display: none;
 	}
 	
 }
+@media only screen and (max-width: 1000px){
+	#sunlogo{
+		width: 8%;
+	}
+}
 
 @media only screen and (max-width: 767px){
+	.img-caption{
+		margin-left: 18%;
+		width: 65%;
+		margin-top: 0.5%;
+		font-size: 110%;
+		color: #666;
+		margin-bottom: 1%;
+	}
 	.pull-quote-para{
 		margin-left: 18%;
 		margin-right: 22%;
@@ -214,7 +249,7 @@ a:hover{
 	}
 	.in-text-img{
 		margin-left: 18%;
-		width: 280px;
+		
 		height: auto;
 	}
 	.sketch{
@@ -229,6 +264,12 @@ a:hover{
 }
 
 @media only screen and (max-width: 650px){
+	#sunlogo{
+		width: 12%;
+	}
+	.wrapper{
+		min-height: 450px;
+	}
 	.parallaximage{
 		background-image: none;
 		display: none;
