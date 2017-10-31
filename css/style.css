@@ -2,14 +2,44 @@ body{
 	
 
 }
+/* OLD WRAPPER: WORKS
 .wrapper{
 	position: relative;
 	
 	width: 100%;
-	/*background-image: url(../images/titleimage.png);
-	background-size: cover;*/
+	
 	margin-top: -1%;
 	margin-left: -1%;
+}*/
+/*NEW WRAPPER TRY OUT PARALLAX*/
+.wrapper{
+	min-height: 800px;
+	
+	
+	background-image: url(../images/titleimage.png);
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+.parallaximage{
+	min-height: 760px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#helicopter{
+
+	background-image: url(../images/sketches/helicopter.png);
+}
+#engineer{
+
+	background-image: url(../images/sketches/engineer.png);
+}
+#rawlings{
+	background-image: url(../images/sketches/rawlings.png);
 }
 .quote-paragraph{
 	margin-left: 18%;
@@ -92,15 +122,22 @@ body{
 .divider{
 	text-align: center;
 }
-
+.sketch{
+	/*margin-left: 18%;
+	width: 63%;*/
+	width: 100%;
+	height: auto;
+}
 .in-text-img{
 	margin-left: 18%;
-	width: 700px;
+	width:450px;
 	height: auto;
+	margin-top: 2%;
+	margin-right: auto;
 }
 .bodyparas{
 	margin-left: 18%;
-	margin-right: 24%;
+	margin-right: 18%;
 	margin-top: 2%;
 	font-family: 'Athelas', serif;
 	font-size: 130%;
@@ -122,8 +159,9 @@ body{
 	margin-left: 10%;
 	width: 100%;
 }
-#content{
+.content{
 	padding-top: 5%;
+	width: 90%;
 	
 }
 .caption{
@@ -149,6 +187,14 @@ a:hover{
 	color: #b04e4b;
 }
 
+@media only screen and (min-width: 651px){
+	
+	.sketch{
+		display: none;
+	}
+	
+}
+
 @media only screen and (max-width: 767px){
 	.pull-quote-para{
 		margin-left: 18%;
@@ -171,10 +217,25 @@ a:hover{
 		width: 280px;
 		height: auto;
 	}
+	.sketch{
+		margin-left: 0%;
+		margin-right: 0%;
+		width: 100%;
+		height: auto;
+	}
+	.wrapper{
+		background-position: right;
+	}
 }
 
-@media only screen and (max-width: 550px){
-	
+@media only screen and (max-width: 650px){
+	.parallaximage{
+		background-image: none;
+		display: none;
+	}
+	.sketch{
+		display: block;
+	}
 	#maintitle{
 		font-size: 220%;
 	}
