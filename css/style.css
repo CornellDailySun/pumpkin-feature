@@ -189,6 +189,9 @@ body{
 	font-family: "Athelas", serif;
 	font-style: italic;
 }
+#header-photo-caption{
+	font-size: 100%!important;
+}
 .in-text-img{
 	margin-left: 37%;
 	width:76%;
