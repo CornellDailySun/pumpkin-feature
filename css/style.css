@@ -16,7 +16,7 @@ body{
 	min-height: 760px;
 	
 	
-	background-image: url(../images/titleimage.png);
+	background-image: url(../images/darker-title-image.png);
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -32,6 +32,36 @@ body{
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+}
+.maintitle-desktop{
+	text-align: left;
+	font-size: 320%;
+	font-family: 'Athelas', serif;
+	margin-left: 12%;
+	position: relative;
+	/*margin-left: 58%;*/
+	/*color: #56ff64;*/
+	color: #fff;
+	font-weight: bold;
+	/*font-family: 'Source Code Pro', monospace;*/
+	/* -webkit-animation: flicker 5s infinite;*/
+
+}
+#first-line-desktop{
+	margin-top: 10%;
+}
+.byline-desktop{
+	text-align: left;
+	/*font-family: 'Lora', serif;*/
+	margin-top: 1%;
+	margin-left: 12%;
+	font-size: 130%;
+	margin-top: 2%;
+	position: relative;
+	/*color: #b7b7b7;*/
+	color: #fff;
+	font-style: italic;
+	font-family: 'Athelas', serif;
 }
 #helicopter{
 
@@ -153,7 +183,6 @@ body{
 	margin-top: 0.5%;
 	font-size: 130%;
 	color: #666;
-	
 	font-family: "Athelas", serif;
 	font-style: italic;
 }
@@ -224,6 +253,7 @@ a:hover{
 		display: none;
 	}
 	
+	
 }
 @media only screen and (max-width: 1000px){
 	#sunlogo{
@@ -237,7 +267,22 @@ a:hover{
 		font-size: 200%;
 	}
 }
+@media only screen and (min-width: 768px){
+	#maintitle{
+		display:none;
+	}
+	#byline{
+		display:none;
+	}
+}
 @media only screen and (max-width: 767px){
+	.wrapper-mobile{
+		display: block;
+	}
+
+	.wrapper{
+		display:none;
+	}
 	.img-caption{
 		margin-left: 18%;
 		width: 65%;
@@ -299,12 +344,7 @@ a:hover{
 	#maintitle{
 		font-size: 190%;
 	}
-	.wrapper-mobile{
-		display: block;
-	}
-	.wrapper{
-		display:none;
-	}
+	
 
 }
 
