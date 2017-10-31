@@ -12,6 +12,9 @@ body{
 	margin-left: -1%;
 }*/
 /*NEW WRAPPER TRY OUT PARALLAX*/
+.row{
+	margin-right: 0px!important;
+}
 .wrapper{
 	min-height: 760px;
 	
